@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@media all and (min-width:1000px){
+body{
+    padding: 9% 20%;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    margin-top: -50px;
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+}
+label{
+    font-size: 1.5rem;
+}
+input{
+    font-size: 1.25rem;
+    border: 2px solid black;
+    text-align: center;
+}
+input:hover{
+    box-shadow:  2px 2px 7px 1px rgba(43, 213, 192, 0.4);
+}
+ #container{
+    
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 100px;
+    padding: 1.5rem;
+    background-color:blanchedalmond;
+ }
+ .flex-box-1{
+    padding: 100px;
+    text-align:  center;
+    border: 3px solid black;
+ }
+}
+ @media all and (max-width : 700px)  {
+    body{
+        padding: 10px 30px;
+        font-family: 'Poppins', sans-serif;
+    }
+    h1{
+        font-size: 1rem;
+        border-bottom: none;
+        
+    }
+    label{
+        font-weight: 800;
+        font-size: .5rem;
+    }
+    input{
+        font-weight: bold;
+        font-size: .5rem;
+        border: 2px solid black;
+        text-align: center;
+    }
+    .box{
+        padding: 0px 10px;
+    }
+     #container{
+        
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        border: 2px solid black;
+        padding: 1rem;
+        background-color:blanchedalmond;
+     }
+     .flex-box-1{
+        
+        text-align:  center;
+        border: 3px solid black;
+     }
+    
+ }
+ @media all and (max-width : 350px) {
+    body{
+        padding: 10px 30px;
+        font-family: 'Poppins', sans-serif;
+    }
+    h1{
+        font-size: 1rem;
+        border-bottom: none;
+        
+    }
+    label{
+        font-weight: 800;
+        font-size: .5rem;
+    }
+    input{
+        font-weight: bold;
+        font-size: .4rem;
+        border: 2px solid black;
+        text-align: center;
+    }
+    .box{
+        padding: 0px 10px;
+    }
+     #container{
+        
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        border: 2px solid black;
+        padding: 1rem;
+        background-color:blanchedalmond;
+     }
+     .flex-box-1{
+        
+        text-align:  center;
+        border: 3px solid black;
+     }
+    
+ }
+ @media all and (min-width : 700px) and (max-width:800px) {
+    body{
+        padding: 350px 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+    h1{
+        font-size: 1.5rem;
+        text-decoration: underline;
+        
+    }
+    label{
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    input{
+        font-weight: bold;
+        font-size: 1.2rem;
+        border: 2px solid black;
+        text-align: center;
+    }
+    .box{
+        padding: 0px 10px;
+    }
+     #container{
+        
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        border: 2px solid black;
+        padding: 1rem;
+        background-color:blanchedalmond;
+     }
+     .flex-box-1{
+        
+        text-align:  center;
+        border: 3px solid black;
+     }
+    
+ }
+ @media all and (min-width : 800px) and (max-width:1200px) {
+    body{
+        padding: 350px 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+    h1{
+        font-size: 1.5rem;
+        text-decoration: underline;
+        
+    }
+    label{
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    input{
+        font-weight: bold;
+        font-size: 1.2rem;
+        border: 2px solid black;
+        text-align: center;
+    }
+    .box{
+        padding: 0px 10px;
+    }
+     #container{
+        
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        border: 2px solid black;
+        padding: 1rem;
+        background-color:blanchedalmond;
+     }
+     .flex-box-1{
+        
+        text-align:  center;
+        border: 3px solid black;
+     }
+    
+ }
