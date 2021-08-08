@@ -1,4 +1,4 @@
-# 10-Day-10-JS-Projects
+# 10-Day-10-BasicJS-Projects
 
 Project 1 : live here https://temperatureconvertor.vercel.app
 
